@@ -1,0 +1,34 @@
+-- RegisterCommand('qbmenutest', function()
+--     exports['qb-menu']:openMenu({
+--         {
+--             header = 'QBCore Test Menu',
+--             icon = 'fas fa-code',
+--             isMenuHeader = true, -- Set to true to make a nonclickable title
+--         },
+--         {
+--             header = 'First Button',
+--             txt = 'Print a message!',
+--             icon = 'fas fa-code-merge',
+--             params = {
+--                 event = 'qb-menu:client:testButton',
+--                 args = {
+-- 		    message = 'This was called by clicking a button'
+--                 }
+--             }
+--         },
+--         {
+--             header = 'Second Button',
+--             txt = 'Open a secondary menu!',
+--             icon = 'fas fa-code-pull-request',
+--             -- disabled = false, -- optional, non-clickable and grey scale
+--             -- hidden = true, -- optional, hides the button completely
+--             params = {
+--                 -- isServer = false, -- optional, specify event type
+--                 event = 'qb-menu:client:subMenu',
+--                 args = {
+--                     number = 2,
+--                 }
+--             }
+--         },
+--     })
+-- end)
